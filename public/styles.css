@@ -1,0 +1,182 @@
+body{
+  background-color: #141414;
+  color: white;
+}
+
+.well {
+ background-color: black;
+ border-color: black;
+}
+
+/*Make red color for titles in entire website*/
+h1 {
+  color: #999999;
+}
+
+h3 {
+  color: #999999; 
+  padding-left: 29px;
+  font-size: 1.4vw;
+  color: #999;
+  font-weight: 700;
+}
+/*navbar black transparent*/
+.container-fluid:hover {
+  background: rgba(0,0,0,0.5);
+}
+
+/*Logo*/
+.navbar-brand img {
+  padding-left: 29px;
+}
+
+/*This will locate and put information to left side og carousel*/
+.carousel-caption {
+  margin-left: -700px;
+}
+.carousel-caption .btn {
+  text-shadow: none;
+  border-radius: 0px;
+}
+
+/*Make button like netflix*/
+.btn-danger {
+    color: #fff;
+    background-color: #FF0011;
+    border-color: #d43f3a;
+}
+.carousel-caption .btn {
+    text-shadow: none;
+    border-radius: 0px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 3px;
+    border-color: black;
+    height: 35px;
+    width: 155px;
+    text-align: center;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: black;
+}
+
+/*Fix hover shador for main carousel slider page */
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(0,0,0,100.5) 0,rgba(0,0,0,0.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(0,0,0,100.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control .icon-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 85px;
+}
+.carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 85px;
+}
+
+/*More movie info ^ button*/
+.show-more-info {
+    text-align: center;
+    color: #141414;
+    font-size: 20px;
+}
+.show-more-info:hover {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+
+/*Search form in navbar*/
+.form-control {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0px;
+  color: white;
+}
+.form-control:hover {
+  border: 1px solid red;
+}
+
+.btn-default {
+    color: #333;
+    background-color: white;
+    border-color: #ccc;
+    width: 50px;
+}
+.btn-default:hover {
+    color: red;
+    background-color: black;
+    border-color: red;
+}
+
+/*Arrage DOM elements in propper locatios*/
+.movie-data {
+  height: 380px;
+}
+
+.movie-data h1 {
+  padding-left: 75px;
+}
+
+.movie-data p {
+  padding-left: 77px;
+}
+.movie-data span{
+  color: red;
+}
+/*make all red buttons square*/
+.movie-data .btn {
+  margin-left: 75px;
+}
+
+.movie-data .btn-danger {
+  text-shadow: none;
+  border-radius: 0px;
+  margin-bottom: -40px;
+}
+
+.specific-iframe {
+    position: absolute;
+    margin-left: 447px;
+    margin-top: -348px;
+}
+
+.small-plot-description{
+  height: 190px;
+  margin: 0px 0px 10px;
+  width: 385px;
+  padding-left: 77px;
+  padding-top: 44px;
+}
+
+footer p{
+  padding-top: 70px; 
+  padding-bottom: 70px; 
+}
+
+footer {
+  width: 100%;
+  color: #999;
+}

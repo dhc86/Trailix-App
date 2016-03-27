@@ -1,0 +1,5 @@
+{
+  "name": "Node.js TRAILIX",
+  "description": "Node.js app using MongoDB and Express",
+  "keywords": ["videos", "node","angularjs", "mongodb"]
+}
