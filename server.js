@@ -3,6 +3,7 @@ var app = express();
 // var mongojs = require('mongojs');
 // var db = mongojs('trailers', ['trailers']);
 var bodyParser = require('body-parser');
+
 // app.get('/', function(req, res){
 
 //   res.send("Hello world from server side!");
